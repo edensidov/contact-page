@@ -60,119 +60,52 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background-image: url(contactphoto.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; 
-  text-align: center;
+  background: #404040; 
 	
 	
 }
 
 .center {
-    width: 40%; /*---This is for responsiveness---*/
-	min-width: 300px; /*---This is for responsiveness---*/
+    width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: hsla(0, 0%, 100%, 0.5); /* this uses opacity of 75% for the background color */
-	border-radius: 50px 0px 50px 0px;
-
-	/* This is my fade in code */
-	animation: fadeIn 5s;
-	-webkit-animation: fadeIn 5s;
-	-moz-animation: fadeIn 5s;
-	-o-animation: fadeIn 5s;
-	-ms-animation: fadeIn 5s;
-	/* border: 4px dashed white */
-
+ 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 4px dashed white;
 }
-
-@keyframes fadeIn {
-	0% { opacity: 0; }
-	100% { opacity: 1; }
-}
-	@-moz-keyframes fadeIn {
-		0% { opacity: 0;}
-		100% { opacity: 1; }
-	}
-
-	@-webkit-keyframes fadeIn {
-		0% { opacity: 0;}
-		100% { opacity: 1; }
-	}
-
-	@-o-keyframes fadeIn {
-		0% { opacity: 0;}
-		100% { opacity: 1; }
-	}
-
-	@-ms-keyframes fadeIn {
-		0% { opacity: 0;}
-		100% { opacity: 1; }
-	}
-
-	/* --------- END of fade in code --------- */
 
    
 #logo {
-	width: 300px;
-	margin-top: 50px;
-	margin-bottom: 16px;
+    margin-bottom: 16px;
+	border: 3px dashed red;
 	text-align: center;
 }
 
 h1 {
-	/* <link rel="stylesheet" href="https://use.typekit.net/uut6udk.css"> */
-	font-family: "acier-bat-gris", sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 2.5em;
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #4d2c5f;
+    color: #fff;
 }
 
 h2 {
- 	/* <link rel="stylesheet" href="https://use.typekit.net/uut6udk.css"> */
-	font-family: "soap", sans-serif;
-	font-weight: 200;
-	font-style: normal;
-	font-size: 1.2em;
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+	font-size: 1.5em;
     line-height: 1.4;
-	margin: 0px auto 25px auto;
-    color: #4d2c5f;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
 }
 
-nav{
-	font-family: "faustina", sans-serif;
-	font-weight: 500;
-	font-style: normal;
-	font-size: 1em;
-	width: 400px; /* This is the width of the nav element */
-	margin: 0 auto; /* This centers the entire nav element inside the center div */
-	border-width: 3px 0; /* This puts a 3 pixel border on top and bottom of the nav element, the zero eliminates the left and right sides of the border */
-	text-align: center;
-	margin-top: 2em; /*This adds a bit of space above the nav element */
-}  
-
-nav li{
-	display: inline; /* This allows the block level elemenys to display next to one another */
+p {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
 }
-
-nav a{
-	display: inline-block;
-	padding: 10px; /* This adds space around each of the links */
-}
-
-a{
-	color: #4d2c5f;
-	text-decoration: none; /* This removes the underline */
-	font-weight: bold;
-}
-
-a:hover{
-	color: rgb(40, 35, 31);
-	background: #7862c3; /* This is the pink hover effect -- you'll want to change this! */
-}
+    
     
 
